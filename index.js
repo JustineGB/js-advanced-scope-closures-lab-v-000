@@ -4,10 +4,9 @@ function produceDrivingRange(){
   return function(first, second){
     let blockRange = second - first
     if blockRange > 10;
-    return 
+    return  
     else blockRange < 10 ;
     return 
- 
   }
 }
 
