@@ -2,6 +2,7 @@ let driverId = 0
 
 function produceDrivingRange(blockRange){
   return function(first, second){
+    let distance = 
     let blockRange = second - first
     if (blockRange > 10);
     return `${blockRange} blocks out of range`;
