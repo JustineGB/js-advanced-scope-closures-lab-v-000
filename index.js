@@ -1,6 +1,6 @@
 let driverId = 0 
 
-function produceDrivingRange(){
+function produceDrivingRange(blockRange){
   return function(first, second){
     let blockRange = second - first
     if (blockRange > 10);
