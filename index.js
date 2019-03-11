@@ -1,3 +1,6 @@
+let store = ( driver [])
+let 
+
 function produceDrivingRange(){
   
 }
