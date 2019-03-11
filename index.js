@@ -3,7 +3,7 @@ let driverId = 0
 function produceDrivingRange(blockRange){
   return function(first, second){
     let distance = Math.abs(first - second)
-    let differnce = Math.abs(distance - blockRange);
+    let difference = Math.abs(distance - blockRange);
     if (difference > blockRange);
     return `${difference} blocks out of range`;
     if (difference < blockRange);
