@@ -14,12 +14,16 @@ function produceDrivingRange(blockRange){
 }
 
 
-blockRange = 10 
-First = 10
-Second = 18 
-distance = 8 (18-10)
-difference = 2 (8-10)
-8 > 2 ....
+// blockRange = 10 
+// First = 10
+// Second = 18 
+// distance = 8 (18-10)
+// difference = 2 (8-10)
+// 8 > 2 ....
+
+
+
+
 
 function produceTipCalculator(){
   
