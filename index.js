@@ -1,5 +1,4 @@
-let store = ( driver [])
-let 
+let driverID = 0 
 
 function produceDrivingRange(){
   
