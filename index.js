@@ -1,8 +1,10 @@
 let driverId = 0 
 
 function produceDrivingRange(blockRange){
-  return function(first, second){
-    let distance = Math.abs(parseInt(second) - parseInt(first));
+  return function(firstNum, secondNum){
+    let x = parseInt(firstNum);
+    let y = parseInt(secondNum);
+    let distance = Math.abs(y - x);
     let difference = Math.abs(distance - blockRange);
     if (distance > blockRange) {
       return `${difference} blocks out of range`;}
