@@ -9,7 +9,7 @@ function produceTipCalculator(){
 }
 
 function createDriver() {
-  class Driver {
+  return class Driver {
   constructor(name) {
     this.name = name
     this.id = ++driverId;
