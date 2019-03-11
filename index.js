@@ -4,15 +4,12 @@ function produceDrivingRange(){
   return function(first, second){
     let blockRange = second - first
     if (blockRange > 10);
-    return 
+    return `${blockRange} blocks out of range`;
     if (blockRange < 10);
-    return 
+    return `within range by ${blockRange}`;
   }
 }
 
-
-('2 blocks out of range')
-      expect(eightBlockRange('10th', '14th')).to.equal('within range by 4')
 
 
 function produceTipCalculator(){
