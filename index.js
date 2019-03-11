@@ -1,7 +1,7 @@
 let driverId = 0 
 
 function produceDrivingRange(){
-  
+  return function(){}
 }
 
 function produceTipCalculator(){
