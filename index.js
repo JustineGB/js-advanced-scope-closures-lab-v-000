@@ -6,7 +6,7 @@ function produceTipCalculator(){
   
 }
 
-function createDriver(){
+function createDriver() {
   constructor(name) {
     this.name = name;
   }
