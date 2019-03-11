@@ -1,7 +1,8 @@
 let driverId = 0 
 
 function produceDrivingRange(){
-  return function(blockRange){}
+  return function(first, second){}
+  blockRange
 }
 
 function produceTipCalculator(){
